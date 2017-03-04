@@ -1,0 +1,36 @@
+True of True is True
+False of False is False
+
+Nothing
+
+X of Y is:
+
+Use Package as Name from Source version Version
+
+Import:
+  | Use <Package> from <Source> version <Version>
+  | Use <Package> as <Name> from <Source> version <Version>
+
+Definition:
+  | <Noun> means: ...
+  | <Noun> of <List> means: ...
+
+Instruction:
+  | To <Verb> means: ...
+  | To <Verb> with <List> means: ...
+
+Assignment:
+  | <Name> is <Value>
+  | <Name> is <Value> by default.
+
+Action:
+  | <Verb> for <Name>
+  | <Verb> with <List> for <Name>
+
+List :=
+  | A
+  | A and B
+  | A, B, and C
+  | A as X
+  | A as X and B as Y
+  | A as X, B as Y, and C as Z
